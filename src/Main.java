@@ -1,4 +1,7 @@
 import javafx.application.Application;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
@@ -14,15 +17,16 @@ public class Main extends Application{
 
     public static void main(String[] args) {
         //int boardSize = Integer.parseInt(args[0]);
-        launch();
+        launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         window= primaryStage;
+        Parent root = FXMLLoader.load(getClass().getResource("root.fxml"));
         window.setTitle("Robotarm");
 
-        HBox top = new HBox();
+        /*HBox top = new HBox();
         Button openCloseButton = new Button("Open/Close");
         Button rotateButton = new Button("Rotate");
 
@@ -41,7 +45,8 @@ public class Main extends Application{
         borderPane.setBottom(bottom);
 
         Scene scene = new Scene(borderPane);
-        window.setScene(scene);
+        window.setScene(scene);*/
+        window.setScene(new Scene(root));
         window.show();
     }
 }
