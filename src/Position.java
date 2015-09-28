@@ -36,7 +36,7 @@ public class Position {
         this.yPos = YPos;
     }
 
-    public void incrPos(PositionDirection dir) {
+    public synchronized void incrPos(PositionDirection dir) {
         switch(dir){
             case X_POS: xPos++; break;
             case Y_POS: yPos++; break;
@@ -44,7 +44,7 @@ public class Position {
         }
     }
 
-    public void decrPos(PositionDirection dir) {
+    public synchronized void decrPos(PositionDirection dir) {
         switch(dir){
             case X_POS: xPos--; break;
             case Y_POS: yPos--; break;

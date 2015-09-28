@@ -15,28 +15,45 @@ public class Controller {
     }
 
     public void leftButtonClicked(){
-        System.out.println("Left!");
+        System.out.println("Left clicked");
+        Main.moveLeft();
     }
 
     public void openCloseButtonClicked(ActionEvent actionEvent) {
+        System.out.println("Open/Close clicked");
+        Main.openClose();
     }
 
-    public void rotateButtonClicked(ActionEvent actionEvent) {
-    }
 
     @FXML
     public void rightButtonClicked(ActionEvent actionEvent) {
-        getNodeFromGrid(grid,0,0).setStyle("background-color: yellow;");
+        System.out.println("Right clicked");
+        Main.moveRight();
+    }
+
+    public void leftRotate(ActionEvent actionEvent){
+        System.out.println("Left Rotate");
+        Main.rotateLeft();
+    }
+
+    public void rightRotate(ActionEvent actionEvent){
+        System.out.println("Right Rotate");
+        Main.rotateRight();
     }
 
     public void upButtonClicked(ActionEvent actionEvent) {
+        System.out.println("Up clicked");
+        Main.moveUp();
     }
 
     public void downButtonClicked(ActionEvent actionEvent) {
-
+        System.out.println("Down clicked");
+        Main.moveDown();
     }
 
+    /*
     private Node getNodeFromGrid(@Nullable GridPane grid, int col, int row){
+
         for(Node n: grid.getChildren()){
             if(GridPane.getColumnIndex(n) == col && GridPane.getRowIndex(n)==row){
                 return n;
@@ -44,4 +61,5 @@ public class Controller {
         }
         return null;
     }
+    */
 }

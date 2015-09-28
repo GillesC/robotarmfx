@@ -2,14 +2,8 @@
  * Created by Gilles on 22-9-2015.
  */
 public class UserInterface {
-    private ArmController xArmController;
-    private ArmController yArmController;
-    private HeadController headController;
 
-    public UserInterface(ArmController xArmController, ArmController yArmController, HeadController headController) {
-        this.xArmController = xArmController;
-        this.yArmController = yArmController;
-        this.headController = headController;
+    public UserInterface() {
     }
 
     public synchronized void notifyMove(Position position) {
