@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller.java" afterPath="$PROJECT_DIR$/src/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserInterface.java" afterPath="$PROJECT_DIR$/src/UserInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArmController.java" afterPath="$PROJECT_DIR$/src/ArmController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Position.java" afterPath="$PROJECT_DIR$/src/Position.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Arm.java" afterPath="$PROJECT_DIR$/src/Arm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/root.fxml" afterPath="$PROJECT_DIR$/src/root.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/Arm.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/Arm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/ArmController$1.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/ArmController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/ArmController.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/ArmController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/ArmOutOfBoundException.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/ArmOutOfBoundException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/Controller.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/Head.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/Head.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/HeadController$1.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/HeadController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/HeadController$HeadControllerOperation.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/HeadController$HeadControllerOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/HeadController.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/HeadController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/Main.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/Position.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/Position.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/Square.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/Square.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/robotarmfx/UserInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotarmfx/root.fxml" afterPath="$PROJECT_DIR$/out/production/robotarmfx/root.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Square.java" afterPath="$PROJECT_DIR$/src/Square.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Head.java" afterPath="$PROJECT_DIR$/src/Head.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HeadController.java" afterPath="$PROJECT_DIR$/src/HeadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArmOutOfBoundException.java" afterPath="$PROJECT_DIR$/src/ArmOutOfBoundException.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -273,7 +276,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -284,45 +287,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robotarmfx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robotarmfx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robotarmfx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robotarmfx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robotarmfx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -553,7 +518,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443363736226</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final commit">
+      <created>1443436854728</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1443436854728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -561,10 +532,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -585,7 +557,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -636,7 +607,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added FXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="added FXML" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -788,6 +760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,6 +806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5805169">
           <caret line="1773" column="6" selection-start-line="1773" selection-start-column="6" selection-end-line="1773" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,6 +817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-36.842106">
           <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
